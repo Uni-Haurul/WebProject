@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: blueviolet;
+    height: 800px;
+    clip-path: polygon(0 0, 100x 0x, 100x 93x, 100x);
+}
+
+.container{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.logo img{
+    width: 100px;
+}
+
+h1{
+    color: cornsilk;
+    letter-spacing: 1px;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+h3{
+    color: cornsilk;
+    font-size: 25px;
+    margin-bottom: 9px;
+}
+
+.tombol{
+    background-color: burlywood;
+    color: darkorchid;
+    width: max-content;
+    padding: 10px 60px;
+    border-radius: 5px;
+}
+
+.gambar_samping{
+    background-color: cyan;
+    display: flex;
+}
+.gambar_samping img{
+    width: 400px;
+    margin-top: 250px;
+    margin-left: auto;
+}
